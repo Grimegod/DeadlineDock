@@ -2,6 +2,9 @@
 
 **Documents. Deadlines. Accountability.**
 
+[Visit the website](https://grimegod.github.io/DeadlineDock/) ·
+[Prezentare în română](https://grimegod.github.io/DeadlineDock/ro.html)
+
 A Windows application for tracking organisational documents, important dates and
 the people responsible for them. Department hierarchy, overdue escalation and
 role-based leadership dashboards, with your data on your own host.
