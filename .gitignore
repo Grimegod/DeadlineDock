@@ -1,0 +1,4 @@
+*.ddbackup
+*.ddlicense
+*.db
+.private/

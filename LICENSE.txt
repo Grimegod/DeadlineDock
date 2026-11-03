@@ -1,0 +1,60 @@
+DeadlineDock — Organisation Licence v1, 3 November 2026
+Publisher contact: FFFNewsNow@gmail.com
+
+1. Evaluation
+An organisation may evaluate this version for 30 days from workspace creation.
+Afterwards reading, CSV export and backup remain available. A valid organisation
+licence enables continued changes.
+
+2. Price and grant
+The publisher's total software licence price is at most EUR 10 for one named
+organisation, paid once, without subscription or per-seat charges. After purchase
+confirmation and delivery of a signed licence, the organisation receives a
+permanent, non-exclusive right to install, back up and use the purchased major
+version internally on any number of its workstations, with any number of internal
+users. There is no device activation quota. Version 0.2.1 belongs to major 0.
+
+3. Organisation scope
+One organisation means one named legal entity, including departments/branches.
+Contractors may access its workspace on its behalf for its internal work.
+Separate incorporated companies, agencies and subsidiaries are separate
+organisations, each requiring its own licence. Resale, sublicensing and hosted
+service provision to unrelated organisations are not included. Contact the
+publisher for a licence transfer after a merger or change of legal entity.
+
+4. Ownership and third parties
+The publisher retains its original software and source code. This licence does
+not convey source code, publishing rights or permission to redistribute modified
+versions. Do not remove proprietary notices or issue unauthorised licence keys.
+These conditions do not restrict rights that cannot be excluded under applicable
+law. Third-party software retains its own licences and rights; see LICENSE.txt,
+ThirdPartyNotices.txt and the licenses directory.
+
+5. Versions, support and infrastructure
+Permanent use covers the purchased major version. Future major versions may
+require a separate purchase, priced at no more than EUR 10 per organisation for
+that version. Continued use of an already licensed version needs no subscription.
+Custom development, guaranteed response times, hosting, certificates and IT
+administration are not included. Bug reports are welcome. Technical processing
+limits are independent of unlimited workstation/user licensing.
+
+6. Data and operation
+Your organisation controls its workspace. It is responsible for accounts,
+entered deadlines, lawful processing, backups and keeping the host running.
+The program does not calculate statutory deadlines or certify legal compliance.
+Backups include documents and password hashes and must be protected. A reminder
+acknowledgement is not completion of an underlying obligation. Do not use the
+program as the sole safeguard for critical deadlines.
+
+7. First-release status and sales
+Version 0.2.1 is an unsigned preview for a controlled pilot. No certification,
+unlimited performance or uninterrupted operation is promised. Mandatory statutory
+rights and liabilities remain unaffected. Before taking money the publisher must
+identify the seller, confirm applicable invoicing/tax/refund terms and a total
+payable software price not exceeding EUR 10. Checkout is not configured.
+
+8. Offline activation and privacy
+A licence identifies the organisation and its workspace organisation ID. It has
+no hardware identifier or workstation list. Verification works offline. The
+private signing key is not distributed. No workspace telemetry or automatic
+document transfer to the publisher is included.
