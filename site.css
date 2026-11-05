@@ -15,4 +15,4 @@
 @media(max-width:760px){.interface-heading{flex-direction:column;align-items:flex-start;gap:22px}.interface-heading p{font-size:14px}.interface-preview{max-height:none;border-radius:12px}.interface-figure figcaption{font-size:11px}}
 
 /* Owner text alignment rule: explanatory prose. */
-main p,main li,.scope-caption{text-align:justify;text-align-last:start;text-justify:inter-word;hyphens:auto;overflow-wrap:break-word}
+p,main li,.scope-caption{text-align:justify;text-align-last:start;text-justify:inter-word;hyphens:auto;overflow-wrap:break-word}
