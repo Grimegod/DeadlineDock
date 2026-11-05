@@ -1,3 +1,5 @@
+<div align="justify">
+
 # DeadlineDock
 
 **Documents. Deadlines. Accountability.**
@@ -63,3 +65,5 @@ The original application source and licence-signing key remain private.
 Third-party notices accompany the distributed application.
 
 Contact: **FFFNewsNow@gmail.com**
+
+</div>

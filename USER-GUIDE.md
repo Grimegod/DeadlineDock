@@ -1,3 +1,5 @@
+<div align="justify">
+
 # Using DeadlineDock
 
 Create the first administrator locally with a unique password. There is no
@@ -52,3 +54,5 @@ columns `unitId,priority,delayReason` retain explicit ownership/priority/blocker
 Imports cannot bypass the operator's access or assign an owner without access.
 Historical notices keep their original title/date/reason and are marked as such;
 only notices for the current open alert cycle count towards the unread badge.
+
+</div>

@@ -1,3 +1,5 @@
+<div align="justify">
+
 # DeadlineDock 0.2.2 — 4 November 2026
 
 Use Organization in the English interface and the corresponding term in all
@@ -12,3 +14,4 @@ workstations. No new authentication, notification or recurrence feature is added
 The installer and portable package remain unsigned Windows 10/11 x64 builds.
 Original source and the licence-signing key remain private.
 
+</div>

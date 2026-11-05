@@ -1,3 +1,5 @@
+<div align="justify">
+
 # Organizations, escalation and leadership
 
 The Organization field names a node in the internal hierarchy, such as a
@@ -104,3 +106,5 @@ Up to 4,096 organizations and 16 hierarchy levels. Existing record/file/backup p
 limits remain. Unlimited licence workstations do not certify unlimited capacity.
 One central HTTPS host is required for shared use; separate installations do not
 aggregate automatically. No security accreditation is claimed.
+
+</div>

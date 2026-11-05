@@ -1,3 +1,5 @@
+<div align="justify">
+
 # Windows deployment
 
 Windows 10/11 x64. Default: `http://127.0.0.1:8767/`, local PC only. Data:
@@ -64,3 +66,5 @@ are retained. Do not run 0.1 against the upgraded database. For rollback, restor
 the pre-upgrade backup to a NEW workspace with 0.1 and keep the upgraded workspace.
 The installer refuses application downgrades. Separate machines still need one
 central host; cross-host federation/synchronisation is not included.
+
+</div>
