@@ -79,4 +79,17 @@ For scripted restore, use --restore <backup> --data <new-folder>
 --restore-password-stdin and send the password on stdin, never in arguments.
 Account passwords and the organization licence are separate from the backup password.
 
+## Reminder processing health
+
+Administrators can open Settings to inspect the last attempt and last successful
+reminder check. A warning also appears elsewhere in the workspace if processing
+fails, no successful check is recent enough or the host status cannot be confirmed.
+Checks normally run once per minute; three minutes without a recent completion
+is treated as delayed. Status is for the current host session.
+
+Choose Retry check to try again. Concurrent checks are not duplicated. If the
+warning persists, check that the central host is running and its workspace is
+accessible. Health updates leave open forms intact. A successful check confirms
+processing only: acknowledgement and completion are separate recorded actions.
+
 </div>

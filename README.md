@@ -11,10 +11,10 @@ A Windows application for tracking organizational documents, important dates and
 the people responsible for them. Department hierarchy, overdue escalation and
 role-based leadership dashboards, with your data on your own host.
 
-## Download 0.4.0
+## Download 0.5.0
 
-- [Windows x64 installer](https://github.com/Grimegod/DeadlineDock/releases/download/v0.4.0/DeadlineDock-0.4.0-Setup-x64.exe)
-- [Portable ZIP](https://github.com/Grimegod/DeadlineDock/releases/download/v0.4.0/DeadlineDock-0.4.0-win-x64.zip)
+- [Windows x64 installer](https://github.com/Grimegod/DeadlineDock/releases/download/v0.5.0/DeadlineDock-0.5.0-Setup-x64.exe)
+- [Portable ZIP](https://github.com/Grimegod/DeadlineDock/releases/download/v0.5.0/DeadlineDock-0.5.0-win-x64.zip)
 - [All releases and SHA256 checksums](https://github.com/Grimegod/DeadlineDock/releases)
 
 Windows 10/11 x64. Self-contained: no separate .NET installation required.
@@ -28,6 +28,7 @@ This is an unsigned preview for a controlled pilot.
 - Organizations/departments, assigned supervisors and five roles with scoped access.
 - Configurable overdue escalation and critical-case routing along the hierarchy.
 - Leadership dashboard with overdue cases, recorded blockers and acknowledgement.
+- Administrator reminder-health status, last successful check, warnings and retry.
 - CSV import/export and optional password-protected backups with verified restore.
 - AES-256-GCM backup v2; old unencrypted v1 backups remain readable.
 - Keep backup passwords safe: they cannot be recovered; v2 requires 0.3.0 or later.

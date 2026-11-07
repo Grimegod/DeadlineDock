@@ -1,17 +1,21 @@
 <div align="justify">
 
-# DeadlineDock 0.4.0 — five additional interface languages
+# DeadlineDock 0.5.0 — visible reminder-processing health
 
-Added Russian (Русский), Indonesian (Bahasa Indonesia), Polish (Polski),
-Turkish (Türkçe) and Korean (한국어), bringing the application to 16 interface
-languages. The new catalogs include dialogs, validation and error messages.
-English remains the first-run default. Existing language preferences are kept.
+Administrators now see reminder-check status, the last attempt and the last
+successful completion. Failures are tracked instead of silently discarded.
+Checks delayed for at least three minutes produce a warning; an unavailable
+health response is reported separately. Retry check uses the same serialized
+processing as the automatic one-minute timer and existing notice deduplication.
 
-The browser workspace and Windows host both offer the five new languages.
-Each account can save its choice; changing language preserves stored deadline
-dates and the organization time zone. Existing data and licences remain compatible.
+Health refreshes do not replace open forms. The health endpoint and detailed
+status are restricted to administrators. Errors expose a stable generic code,
+not raw exception messages, local paths, passwords or document contents.
+Status covers the current host session. Successful processing is not proof that
+a notification was read or an obligation completed. The host must remain running.
 
-Translations are initial drafts, not a professional native-speaker review.
+All status messages are available in the sixteen interface languages.
+Existing data and licences remain compatible; no database migration is required.
 Unsigned Windows x64 preview. Contact: FFFNewsNow@gmail.com.
 
 </div>
