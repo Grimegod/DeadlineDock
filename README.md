@@ -11,10 +11,10 @@ A Windows application for tracking organizational documents, important dates and
 the people responsible for them. Department hierarchy, overdue escalation and
 role-based leadership dashboards, with your data on your own host.
 
-## Download 0.3.0
+## Download 0.4.0
 
-- [Windows x64 installer](https://github.com/Grimegod/DeadlineDock/releases/download/v0.3.0/DeadlineDock-0.3.0-Setup-x64.exe)
-- [Portable ZIP](https://github.com/Grimegod/DeadlineDock/releases/download/v0.3.0/DeadlineDock-0.3.0-win-x64.zip)
+- [Windows x64 installer](https://github.com/Grimegod/DeadlineDock/releases/download/v0.4.0/DeadlineDock-0.4.0-Setup-x64.exe)
+- [Portable ZIP](https://github.com/Grimegod/DeadlineDock/releases/download/v0.4.0/DeadlineDock-0.4.0-win-x64.zip)
 - [All releases and SHA256 checksums](https://github.com/Grimegod/DeadlineDock/releases)
 
 Windows 10/11 x64. Self-contained: no separate .NET installation required.
@@ -33,7 +33,8 @@ This is an unsigned preview for a controlled pilot.
 - Keep backup passwords safe: they cannot be recovered; v2 requires 0.3.0 or later.
 - Midnight, Forest and warm Sand themes, with a saved per-browser choice.
 - English default plus Romanian, Spanish, French, German, Portuguese, Italian,
-  Simplified Chinese, Japanese, Arabic and Hindi.
+  Simplified Chinese, Japanese, Arabic, Hindi, Russian, Indonesian, Polish,
+  Turkish and Korean.
 
 ## Organization licence
 
