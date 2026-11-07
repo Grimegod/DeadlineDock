@@ -1,17 +1,28 @@
 <div align="justify">
 
-# DeadlineDock 0.2.2 — 4 November 2026
+# DeadlineDock 0.3.0 — password-protected backups
 
-Use Organization in the English interface and the corresponding term in all
-ten additional languages. Update the website and customer documentation with
-neutral language for companies, public agencies and other organizations.
+Create an optional password-protected backup in Settings. The new dialog starts
+with password protection selected, asks for confirmation and warns that a lost
+password cannot be recovered. Unprotected v1 copies remain available explicitly.
 
-Existing workspaces, internal identifiers, role permissions and alert rules are
-unchanged. No database migration or licence change is needed. English remains
-the default; the organization licence is at most EUR 10 with unlimited internal
-workstations. No new authentication, notification or recurrence feature is added.
+Encrypted backup v2 uses AES-256-GCM with authenticated bounded frames and a
+PBKDF2-SHA256 password key. Documents, account hashes and ZIP entry names are
+inside the encrypted content. Restoring asks for the password in a masked field
+and supports cancellation. Command-line restores can read a password from stdin;
+passwords are not accepted in command-line arguments or download URLs.
 
-The installer and portable package remain unsigned Windows 10/11 x64 builds.
-Original source and the licence-signing key remain private.
+Existing unencrypted v1 backups still restore. Wrong passwords, tampering,
+truncation, reordered frames and trailing bytes are rejected. Restoration keeps
+the original workspace and creates a fresh folder only after validation. The
+existing expanded-size, attachment, path and database checks remain in force.
+Restoration temporarily decrypts on the local disk and removes its staging file;
+the restored workspace remains ordinary local data, not encrypted-at-rest storage.
+Older application versions cannot open encrypted v2 backups.
+
+English plus ten additional languages; organization licence remains maximum
+EUR 10, one payment, unlimited internal workstations. Contact: FFFNewsNow@gmail.com.
+Unsigned Windows x64 preview. No accreditation or external audit is claimed.
+Original application source and licence-signing key remain private.
 
 </div>

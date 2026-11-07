@@ -37,8 +37,10 @@ an exact restoration.
 ## Backup and licence
 
 Download `.ddbackup` in Settings while the host stays on. Keep secure copies on
-separate storage. Backups are NOT encrypted and include documents/password
-hashes. Restore from the host window: select a backup and parent folder. A new
+separate storage. Password protection is selected initially in 0.3.0; use and
+confirm a strong backup password. Explicitly unprotected v1 copies contain
+readable documents and account password hashes. Restore from the host window:
+select a backup and parent folder, then provide its password if requested. A new
 workspace is verified/created, leaving the original intact. Restart the host;
 use accounts from the backup. Previous sessions are invalidated.
 
@@ -54,5 +56,27 @@ columns `unitId,priority,delayReason` retain explicit ownership/priority/blocker
 Imports cannot bypass the operator's access or assign an owner without access.
 Historical notices keep their original title/date/reason and are marked as such;
 only notices for the current open alert cycle count towards the unread badge.
+
+## Password-protected backups (0.3.0)
+
+In Settings, choose Download backup. Password protection is selected initially.
+Enter and confirm a password of 12–128 characters, then download the .ddbackup
+file. Store the password separately and safely: it cannot be recovered. Uncheck
+protection only to create an explicitly unencrypted v1 copy; documents and
+account password hashes in that copy can be read by anyone who obtains it.
+
+Restore through the Windows host's Restore backup control. Encrypted v2 copies
+prompt for a masked password and allow cancellation. A wrong password or altered
+copy leaves the destination uncommitted and the existing workspace intact.
+Old unencrypted v1 backups remain supported. Versions before 0.3.0 cannot read
+encrypted v2 backups. The existing 512 MiB expanded backup limit still applies.
+During restoration a private staging ZIP is temporarily decrypted on the local
+disk, then deleted; use a trusted local disk. The final workspace is ordinary
+local data. Deletion does not promise forensic erasure or protection against
+someone who already controls the host.
+
+For scripted restore, use --restore <backup> --data <new-folder>
+--restore-password-stdin and send the password on stdin, never in arguments.
+Account passwords and the organization licence are separate from the backup password.
 
 </div>
